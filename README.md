@@ -10,3 +10,4 @@
 ### CRUD
 ### Sorting
 ### Searching by name
+### Logging Support
