@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class CRMLoggingAspect {
 
     // setup logger
-    private Logger logger = Logger.getLogger(getClass().getName());
+    private final Logger logger = Logger.getLogger(getClass().getName());
 
     // setup pointcut declarations
     @Pointcut("execution(* com.luv2code.springdemo.controller.*.*(..))")
