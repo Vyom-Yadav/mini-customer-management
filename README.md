@@ -11,3 +11,4 @@
 ### Sorting
 ### Searching by name
 ### Logging Support
+### User Authentication based on roles
