@@ -1,5 +1,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+
 <html>
 <head>
     <title>Save Customer</title>
@@ -12,7 +14,7 @@
 <body>
 <div id="wrapper">
     <div id="header">
-        <h2>CRM - Customer Relationship Management</h2>
+        <h2>CRM - Customer Relationship Management, Welcome <security:authentication property="principal.username" /></h2>
     </div>
 </div>
 
