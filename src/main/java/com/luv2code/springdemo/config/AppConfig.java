@@ -46,7 +46,7 @@ public class AppConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
     }
 
-    @Autowired
+    @Autowired // not necessary https://stackoverflow.com/questions/41092751/spring-injects-dependencies-in-constructor-without-autowired-annotation
     public AppConfig(Environment environment) {
         this.env = environment;
     }
